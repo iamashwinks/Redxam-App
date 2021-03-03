@@ -1,0 +1,226 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+
+body {
+	max-height: 100%;
+	height: 100%;
+	font-family: 'Rubik', sans-serif;
+	background: #fdfdfd;
+	/*max-width: 100%;
+	overflow: hidden;*/
+}
+
+
+/* Components - Desktop */
+
+	
+	/* Hero Section */
+
+		.hero-section {
+			padding-top: 60px;
+			width: 100vw;
+			height: 100vh;
+			max-width: 100%;
+			max-height: 100%;
+			position: relative;
+		}
+
+		.hero-content-wrapper {
+		
+		}
+
+		.logo-img {
+			margin: 30px 0 40px;
+			max-width: 100%;
+			width: 240px;
+		}
+
+		.h1 {
+			margin-bottom: 60px;
+			font-family: 'Rubik', sans-serif;
+			font-weight: 400;
+			font-size: 48px;
+			line-height: 56px;
+			color: #40453a;
+			text-align: center;
+			text-transform: capitalize;
+		}
+
+		.email-form {
+			position: relative;
+		}
+
+		.input-wrap {
+			position: relative;
+		}
+
+		.email-label {
+			padding: 2px;
+			position: absolute;
+			top: -26%;
+			left: 5%;
+			font-family: 'Rubik', sans-serif;
+			font-weight: 500;
+			font-size: 17px;
+			line-height: 24px;
+			color: #38b000;
+			background: #fdfdfd;
+		}
+
+		.email-input {
+			padding: 14px 30px;
+			width: 560px;
+			height: 54px;
+			font-family: 'Rubik', sans-serif;
+			font-weight: 400;
+			font-size: 16px;
+			line-height: 24px;
+			color: #272b22;
+			background: #fdfdfd;
+			border-radius: 50px;
+			border: 2px solid #38b000;
+		}
+
+		.submit-btn {
+			padding: 17px 40px;
+			position: absolute;
+			right: 0;
+			bottom: 0;
+			font-family: 'Rubik', sans-serif;
+			font-weight: 500;
+			font-size: 16px;
+			line-height: 20px;
+			color: #fdfdfd !important;
+			background: linear-gradient(180deg, #272B22 0%, #353930 100%);
+			border-radius: 50px;
+			box-shadow: 0px 12px 13px rgba(39, 43, 34, 0.08), 0px 8.14815px 6.51852px rgba(39, 43, 34, 0.02), 0px 3px 3.14815px rgba(39, 43, 34, 0.03);
+			border: none;
+		}
+
+		.submit-btn:hover {
+			color: #fdfdfd !important;
+			background: #38b000;
+			border: none;
+		}
+
+		.bottom-banner {
+			width: 100%;
+			max-width: 100%;
+			position: absolute;
+			top: auto;
+			bottom: 0;
+			right: 0;
+			left: 0;
+			margin-top: 120px;
+		}
+
+	/* End - Hero Section */
+
+/* End - Components -Desktop */
+
+
+
+/* Responsive CSS */
+
+	/* Screen sizes < 1400px */
+
+		@media screen and (max-width: 1399px) {
+
+			
+
+		}
+
+	/* End - Screen sizes < 1400px */
+
+	/* Screen sizes < 1300px */
+
+		@media screen and (max-width: 1299px) {
+
+
+		}
+
+	/* End - Screen sizes < 1300px */
+
+
+	/* Screen sizes < 1200px */
+
+		@media screen and (max-width: 1199px) {
+
+		}
+
+	/* End - Screen sizes < 1200px */
+
+
+	/* Screen sizes < 992px */
+
+		@media screen and (max-width: 991px) {
+
+			.logo-img {
+				width: 200px;
+			}
+
+			.h1 {
+				font-size: 40px;
+				line-height: 52px;
+			}
+
+		}
+
+	/* End - Screen sizes < 992px */
+
+
+	/* Screen sizes < 768px */
+
+		@media screen and (max-width: 767px) {
+
+			.h1 {
+				font-size: 32px;
+				line-height: 40px;
+			}
+
+		}
+
+	/* End - Screen sizes < 768px */
+
+
+	/* Screen sizes < 576px */
+
+		@media screen and (max-width: 575px) {
+
+			.logo-img {
+				width: 160px;
+			}
+
+			.h1 {
+				font-size: 28px;
+				line-height: 40px;
+			}
+
+			.email-form {
+				flex-direction: column;
+			}
+
+			.email-label {
+				left: 100px;
+				right: 100px;
+			}
+
+			.email-input {
+				width: 320px;
+				text-align: center;
+			}
+
+			.submit-btn {
+				position: static;
+				margin-top: 10px;
+			}
+
+		}
+
+	/* End - Screen sizes < 576px */
+
+/* End Responsive CSS */
